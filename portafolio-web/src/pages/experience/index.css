@@ -1,0 +1,33 @@
+.vertical-timeline {
+  background-color: transparent; /* Ajusta el color de fondo de la línea de tiempo */
+  margin-top: 50px;
+}
+
+.vertical-timeline-element-content {
+  background-color: #23273b;
+  color: #ffffff;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #161a30, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element-subtitle {
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.vertical-timeline-element-title {
+  font-size: 23px;
+}
+.vertical-timeline-element--work p {
+  font-size: 12px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.highlight {
+  color: #7fc7d9; /* Color para texto destacado */
+  font-weight: bold;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.portafolio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #161a30;
+  background: radial-gradient(circle at top, #0c0f23 50%, #040614 100%);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.content {
+  max-width: 900px;
+  width: 100%;
+  max-height: fit-content;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: 'Urbanist', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.socials,
+.my_info,
+.phrase {
+  padding: 0;
+  margin: 0;
+}
+
+.socials {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.my_info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.my_info p {
+  font-size: 14px;
+}
+
+.my_info p {
+  margin-top: -10px;
+}
+
+.phrase h1 {
+  font-family: 'Syne', sans-serif;
+  color: #fff;
+  text-shadow: 0 0 8px #fff, /* Brillo blanco más concentrado */ 0 0 15px #f0f0f0,
+    /* Brillo más difuso */ 0 0 40px #ccc; /* Brillo aún más difuso */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.phrase p {
+  display: flex;
+  justify-content: end;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.menu a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ccc;
+}
+
+.status_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.status_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.sections {
+  margin-top: 80px;
+}
+
+.sections-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.section-subtitle {
+  margin-top: -2px;
+}
