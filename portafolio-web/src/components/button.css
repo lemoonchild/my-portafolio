@@ -1,0 +1,20 @@
+.button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Urbanist', sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #31304d;
+  transform: translateY(-5px);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,61 @@
+.navbar-container {
+  backdrop-filter: blur(20px);
+  background-color: rgba(242, 242, 242, 0.05);
+  border: 1px solid rgba(242, 242, 242, 0.1);
+  border-radius: 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 48px;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  position: relative;
+  box-shadow: rgba(142, 142, 142, 0.24) 0px 3px 8px;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-button {
+  color: #f0ece5;
+  flex: 1;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  margin: 0 10px;
+  transition: background-color 0.3s ease, color 0.3s;
+  border-radius: 18px;
+}
+
+.nav-button:hover:not(.active) {
+  background-color: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(30px);
+}
+
+.nav-button.active {
+  pointer-events: none;
+  background-color: #31304d;
+  border-radius: 18px;
+}
+
+.nav-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 33.33%;
+  background-color: #31304d;
+  transition: left 0.3s ease;
+  border-radius: 18px;
+}

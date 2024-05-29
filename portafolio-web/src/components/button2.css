@@ -1,0 +1,46 @@
+.button-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  background-color: #161a30;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #31304d;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  transform-origin: center bottom;
+  max-width: 200px;
+  max-height: 50px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.button-2:hover {
+  color: #f0ece5;
+  border-color: #f0ece5;
+  transform: scale(1.05);
+}
+
+.button-2:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(100, 105, 101, 0.5);
+}
+
+.bubble-active {
+  animation: floatAnimation 2s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
