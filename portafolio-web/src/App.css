@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-track {
+  background: #31304d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b6bbc4;
+  border-radius: 6px;
+  border: 3px solid #31304d;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #b6bbc4 #31304d;
+}
