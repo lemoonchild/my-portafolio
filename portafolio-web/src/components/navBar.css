@@ -45,7 +45,7 @@
 
 .nav-button.active {
   pointer-events: none;
-  background-color: #31304d;
+  background-color: transparent;
   border-radius: 18px;
 }
 
@@ -55,7 +55,7 @@
   left: 0;
   height: 100%;
   width: 33.33%;
-  background-color: #31304d;
+  background-color: #23273b;
   transition: left 0.3s ease;
   border-radius: 18px;
 }
