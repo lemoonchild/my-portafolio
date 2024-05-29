@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Button from '../../components/button'
 import Navbar from '../../components/navBar'
 import Experience from '../experience'
+import FlashlightEffect from '../../components/flashlight'
 import './index.css'
 
 const Portafolio = () => {
@@ -24,6 +25,7 @@ const Portafolio = () => {
 
   return (
     <div className="portafolio">
+      <FlashlightEffect />
       <div className="content">
         <div className="header">
           <div className="my_info">

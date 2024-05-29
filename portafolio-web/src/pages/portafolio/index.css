@@ -23,6 +23,7 @@
   box-sizing: border-box;
   overflow-wrap: break-word;
   font-family: 'Urbanist', sans-serif;
+  z-index: 5;
 }
 .header {
   display: flex;
@@ -81,7 +82,7 @@
 
 .phrase p {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   font-size: 15px;
   margin-top: -10px;
 }
