@@ -1,6 +1,7 @@
 .vertical-timeline {
   background-color: transparent; /* Ajusta el color de fondo de la línea de tiempo */
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 .vertical-timeline-element-content {
