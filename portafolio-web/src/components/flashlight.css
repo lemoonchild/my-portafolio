@@ -1,11 +1,11 @@
 .light {
   position: absolute;
-  width: 10%; /* Ajusta según el tamaño deseado del efecto de luz */
+  width: 10%;
   aspect-ratio: 1;
   border-radius: 50%;
-  filter: blur(80px);
-  background-color: #31304d; /* Color de la luz con transparencia */
-  opacity: 0; /* Inicialmente oculto */
-  transition: opacity 500ms ease; /* Transición suave de la opacidad */
-  pointer-events: none; /* Evita la interacción con el cursor */
+  filter: blur(100px);
+  background-color: #31304d;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  pointer-events: none;
 }
