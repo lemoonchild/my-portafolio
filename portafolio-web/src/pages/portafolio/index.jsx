@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Button from '../../components/button'
 import Navbar from '../../components/navBar'
 import Experience from '../experience'
-import FlashlightEffect from '../../components/flashlight'
+import SkillCards from '../habilites'
+import Projects from '../projects'
 import './index.css'
 
 const Portafolio = () => {
@@ -25,7 +26,6 @@ const Portafolio = () => {
 
   return (
     <div className="portafolio">
-      <FlashlightEffect />
       <div className="content">
         <div className="header">
           <div className="my_info">
@@ -55,9 +55,17 @@ const Portafolio = () => {
                 <p className="section-subtitle">What I have done so far...</p>
               </div>
 
-              <div className="my-experience">
-                <Experience />
+              <Experience />
+
+              <div className="sections-title">
+                <h2>Habilities Learned</h2>
+                <p className="section-subtitle">
+                  In my journey through the world of web development, I have gained experience and
+                  skills in various technologies. My tech stack includes:
+                </p>
               </div>
+
+              <SkillCards />
             </div>
           )}
           {activeSection === 'aboutme' && (
@@ -72,8 +80,9 @@ const Portafolio = () => {
             <div className="projects">
               <div className="sections-title">
                 <h2>My projects</h2>
-                <p>Detailed information about personal info...</p>
+                <p className="section-subtitle">What I have done in my last year</p>
               </div>
+              <Projects />
             </div>
           )}
         </div>
