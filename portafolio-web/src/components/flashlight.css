@@ -3,7 +3,7 @@
   width: 10%;
   aspect-ratio: 1;
   border-radius: 50%;
-  filter: blur(100px);
+  filter: blur(80px);
   background-color: #31304d;
   opacity: 0;
   transition: opacity 500ms ease;
