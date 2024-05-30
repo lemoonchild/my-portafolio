@@ -10,9 +10,10 @@ export default function Projects() {
       id: 1,
       title: 'The Cozy Whiskers',
       date: 'March 2024',
-      descriptionEn: 'A management system for a restaurant.',
+      descriptionEn:
+        'A management system for "The Cozy Whiskers" cat café, enhancing service efficiency and customer satisfaction through streamlined operations. Developed the intuitive user interface as the Front End developer.',
       technologies: ['React', 'Vite', 'NodeJS', 'CSS', 'PostgreSQL'],
-      imageUrl: 'src/assets/img/tcw.png',
+      imageUrl: 'src/assets/gif/tcw.gif',
       link: 'https://the-cozy-whiskers.vercel.app',
       link2: 'https://github.com/lemoonchild/the-cozy-whiskers.git',
     },
@@ -20,19 +21,21 @@ export default function Projects() {
       id: 2,
       title: 'Testing Calculator',
       date: 'May 2024',
-      descriptionEn: 'A calculator to demonstrate software testing.',
+      descriptionEn:
+        'A demonstration calculator for software testing with Vitest and Storybook, focusing on functionality testing and UI component reliability. Managed setup and documentation of test processes',
       technologies: ['Vite', 'React', 'Vitest', 'Jest'],
-      imageUrl: 'src/assets/img/calculator.png',
-      link: 'https://calculator-project-gilt.vercel.app/calculator',
+      imageUrl: 'src/assets/gif/calc.gif',
+      link: 'https://calculator-project-gilt.vercel.app/',
       link2: 'https://github.com/lemoonchild/calculator-testing.git',
     },
     {
       id: 3,
       title: 'The Evangelion Blog',
       date: 'April 2024',
-      descriptionEn: 'A blog dedicated to Evangelion.',
+      descriptionEn:
+        'An interactive blog for "Evangelion" fans, developed to enhance community engagement with features for reading and managing posts. Handled full-stack development, deployed on Vercel.',
       technologies: ['React', 'Vite', 'CSS', 'NodeJS', 'PostgreSQL'],
-      imageUrl: 'src/assets/img/evablog.png',
+      imageUrl: 'src/assets/gif/evablog.gif',
       link: 'https://my-evangelion-blog.vercel.app/blog',
       link2: 'https://github.com/lemoonchild/my-portafolio.git',
     },
@@ -45,7 +48,7 @@ export default function Projects() {
           <img src={project.imageUrl} alt={project.title} />
           <div className="project-info">
             <h3>{project.title}</h3>
-            <p>{project.date}</p>
+            <p className="date">{project.date}</p>
             <div className="technologies">
               {project.technologies.map((tech) => (
                 <span key={tech} className="tech">
@@ -53,16 +56,14 @@ export default function Projects() {
                 </span>
               ))}
             </div>
-            <p>{project.descriptionEn}</p>
+            <p className="description">{project.descriptionEn}</p>
 
             <div className="button-group">
               <a className="link-important" href={project.link}>
-                <TbWorld />
-                See Project
+                <TbWorld style={{ marginRight: '8px' }} /> See Project
               </a>
               <a className="link" href={project.link2}>
-                <FaGithub />
-                Github
+                <FaGithub style={{ marginRight: '8px' }} /> Github
               </a>
             </div>
           </div>
