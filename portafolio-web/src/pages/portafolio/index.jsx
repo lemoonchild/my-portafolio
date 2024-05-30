@@ -4,6 +4,8 @@ import Navbar from '../../components/navBar'
 import Experience from '../experience'
 import SkillCards from '../habilites'
 import Projects from '../projects'
+import { Achievements, AboutMe } from '../aboutme'
+import { ContactForm } from '../contactme'
 import './index.css'
 
 const Portafolio = () => {
@@ -41,7 +43,7 @@ const Portafolio = () => {
 
         <div className="phrase">
           <h1>Turning ideas into interactive realities.</h1>
-          <p>Computer Science & IT student at Universidad del Valle de Guatemala</p>
+          <p>Computer Science & IT student at Universidad del Valle de Guatemala 💫</p>
         </div>
 
         <div className="nav_bar">
@@ -72,15 +74,31 @@ const Portafolio = () => {
             <div className="aboutme">
               <div className="sections-title">
                 <h2>About me</h2>
-                <p>Detailed information about personal info...</p>
+                <p className="section-subtitle">Detailed information about personal info...</p>
               </div>
+              <AboutMe />
+
+              <div className="sections-title">
+                <h2>Achievements</h2>
+                <p className="section-subtitle">
+                  Each achievement is a testament to determination, perseverance, and the relentless
+                  pursuit of excellence. Here are some of my most notable accomplishments:
+                </p>
+              </div>
+              <Achievements />
+
+              <div className="sections-title">
+                <h2>Let's get in touch!</h2>
+                <p className="section-subtitle">Please, fill the next form</p>
+              </div>
+              <ContactForm />
             </div>
           )}
           {activeSection === 'projects' && (
             <div className="projects">
               <div className="sections-title">
                 <h2>My projects</h2>
-                <p className="section-subtitle">What I have done in my last year</p>
+                <p className="section-subtitle">Explore my year of innovation and creation!</p>
               </div>
               <Projects />
             </div>

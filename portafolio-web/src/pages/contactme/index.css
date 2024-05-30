@@ -1,0 +1,73 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background: #31304d;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+form h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 2px solid #3e435b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='email']:focus,
+textarea:focus {
+  border-color: #fff;
+  outline: none;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #69688b;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+button[type='submit']:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+button[type='submit']:focus {
+  outline: 3px solid #aaa;
+}

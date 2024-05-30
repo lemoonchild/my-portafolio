@@ -22,7 +22,6 @@
   max-height: fit-content;
   box-sizing: border-box;
   overflow-wrap: break-word;
-  font-family: 'Urbanist', sans-serif;
   z-index: 5;
 }
 .header {
@@ -134,6 +133,7 @@
 }
 
 .section-subtitle {
+  line-height: 1.5;
   margin-top: -2px;
   display: flex;
   justify-content: center;

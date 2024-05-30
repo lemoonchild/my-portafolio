@@ -1,0 +1,47 @@
+.first {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.description-me {
+  text-align: left;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 50px;
+  max-width: 400px;
+  box-shadow: 0 0 2px #b6bbc4, 0 0 5px #f0ece5;
+}
+
+.description-me:hover {
+  border: 1px solid #f0ece5;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 3px 8px;
+}
+
+.description-me p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.description-me span {
+  color: #e0e2e5;
+  text-shadow: 0 0 8px #fff, /* Brillo blanco más concentrado */ 0 0 15px #f0f0f0,
+    /* Brillo más difuso */ 0 0 40px #ccc; /* Brillo aún más difuso */
+}
+
+.first img {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 420px;
+}
+
+.first img:hover {
+  transform: rotate(-10deg);
+  transition: transform 0.3s ease;
+}
+
+.icon-size {
+  font-size: 36px;
+}
