@@ -5,10 +5,10 @@
   border-radius: 24px;
   justify-content: space-between;
   align-items: center;
-  width: 450px;
+  max-width: 450px; /* Se establece un ancho máximo */
+  width: 100%; /* Se asegura que la barra use todo el ancho disponible */
   height: 48px;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding: 0 6px; /* Ajusta el padding para que no afecte a los botones */
   display: flex;
   position: relative;
   box-shadow: rgba(142, 142, 142, 0.24) 0px 3px 8px;
@@ -24,16 +24,15 @@
 
 .nav-button {
   color: #f0ece5;
-  flex: 1;
-  padding: 10px 20px;
+  flex: 1; /* Esto asegura que cada botón tome un tercio del espacio disponible */
+  padding: 10px 0; /* Ajusta el padding vertical para que los botones no se hagan muy grandes */
+  text-align: center; /* Centra el texto dentro de los botones */
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 16px; /* Ajusta el tamaño del texto según necesidad */
   cursor: pointer;
   outline: none;
-  position: relative;
   z-index: 2;
-  margin: 0 10px;
   transition: background-color 0.3s ease, color 0.3s;
   border-radius: 18px;
 }
@@ -54,8 +53,19 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 33.33%;
+  width: 33.33%; /* Esto debe ajustarse dinámicamente si cambia el número de botones */
   background-color: #23273b;
   transition: left 0.3s ease;
   border-radius: 18px;
+}
+
+@media (max-width: 768px) {
+  .nav-button {
+    font-size: 14px; /* Reduce el tamaño del texto en pantallas pequeñas */
+    padding: 10px 5px; /* Reduce el padding horizontal */
+  }
+
+  .navbar-container {
+    padding: 0 4px; /* Reduce el padding del contenedor en pantallas pequeñas */
+  }
 }
