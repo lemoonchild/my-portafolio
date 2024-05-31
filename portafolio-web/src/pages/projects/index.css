@@ -1,6 +1,6 @@
 .projects-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   margin: 0;
   width: 100%;
@@ -116,4 +116,20 @@
 
 .date {
   color: #b6bbc4;
+}
+
+.description-me span {
+  color: #e0e2e5;
+  text-shadow: 0 0 8px #fff, /* Brillo blanco más concentrado */ 0 0 15px #f0f0f0,
+    /* Brillo más difuso */ 0 0 40px #ccc; /* Brillo aún más difuso */
+}
+
+@media (min-width: 768px) {
+  .projects-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card {
+    margin: 0px;
+  }
 }
