@@ -92,7 +92,7 @@ const Portafolio = () => {
                 <div className="aboutme">
                   <div className="sections-title">
                     <h2>About me</h2>
-                    <p className="section-subtitle">Detailed information about personal info...</p>
+                    <p className="section-subtitle"> Learn more about the developer!</p>
                   </div>
                   <AboutMe />
 
@@ -108,7 +108,9 @@ const Portafolio = () => {
 
                   <div className="sections-title">
                     <h2>Let's get in touch!</h2>
-                    <p className="section-subtitle">Please, fill the next form</p>
+                    <p className="section-subtitle">
+                      If you're interested, please fill the next form
+                    </p>
                   </div>
                   <ContactForm />
                 </div>

@@ -13,7 +13,7 @@ export default function Projects() {
       descriptionEn:
         'A management system for "The Cozy Whiskers" cat café, enhancing service efficiency and customer satisfaction through streamlined operations. Developed the intuitive user interface as the Front End developer.',
       technologies: ['React', 'Vite', 'NodeJS', 'CSS', 'PostgreSQL'],
-      imageUrl: 'src/assets/gif/tcw.gif',
+      imageUrl: '/assets/gif/tcw.gif',
       link: 'https://the-cozy-whiskers.vercel.app',
       link2: 'https://github.com/lemoonchild/the-cozy-whiskers.git',
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       descriptionEn:
         'A demonstration calculator for software testing with Vitest and Storybook, focusing on functionality testing and UI component reliability. Managed setup and documentation of test processes',
       technologies: ['Vite', 'React', 'Vitest', 'Jest'],
-      imageUrl: 'src/assets/gif/calc.gif',
+      imageUrl: '/assets/gif/calc.gif',
       link: 'https://calculator-project-gilt.vercel.app/',
       link2: 'https://github.com/lemoonchild/calculator-testing.git',
     },
@@ -35,7 +35,7 @@ export default function Projects() {
       descriptionEn:
         'An interactive blog for "Evangelion" fans, developed to enhance community engagement with features for reading and managing posts. Handled full-stack development, deployed on Vercel.',
       technologies: ['React', 'Vite', 'CSS', 'NodeJS', 'PostgreSQL'],
-      imageUrl: 'src/assets/gif/evablog.gif',
+      imageUrl: '/assets/gif/evablog.gif',
       link: 'https://my-evangelion-blog.vercel.app/blog',
       link2: 'https://github.com/lemoonchild/my-portafolio.git',
     },

@@ -24,7 +24,7 @@ export function AboutMe() {
             coffee, and Studio Ghibli movies.
           </p>
         </div>
-        <img src="src/assets/img/me2.png" alt="" />
+        <img src="/assets/img/me2.png" alt="" />
       </div>
     </div>
   )
