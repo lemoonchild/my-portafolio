@@ -26,6 +26,7 @@
 }
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: start;
   margin-bottom: 100px;
@@ -139,4 +140,40 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my_info h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .phrase h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .phrase p {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .socials {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .my_info p {
+    text-align: center;
+  }
 }
