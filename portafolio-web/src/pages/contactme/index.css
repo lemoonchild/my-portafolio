@@ -9,7 +9,8 @@ form {
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  background: #31304d;
+  background: #161a30;
+  border: 1px solid #fff;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   width: 100%;
